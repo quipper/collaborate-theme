@@ -1,0 +1,164 @@
+.composer-popup-container > .composer-popup {
+  background-color: white;
+  box-shadow: none;
+}
+
+.composer-popup-container > .composer-popup > .close::before {
+  content: "";
+}
+
+.composer-popup-container > .composer-popup > p,
+.composer-popup-container > .composer-popup > ul > li > p {
+  color: #1e3f6b;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.composer-popup-container > .composer-popup > p > a {
+  color: #009feb;
+  font-weight: bold;
+}
+
+.reply-details > .composer-action-title > .select-kit > summary {
+  border-radius: 8px;
+  border-color: #bed2e8 !important;
+}
+
+.reply-details
+  > .composer-action-title
+  > .select-kit
+  > summary
+  > .select-kit-header-wrapper
+  > svg {
+  fill: #8fb0d4;
+  font-size: 12px;
+}
+
+.reply-details > .composer-action-title > .select-kit > .select-kit-body {
+  border-radius: 4px !important;
+}
+
+.reply-details
+  > .composer-action-title
+  > .select-kit
+  > .select-kit-body
+  > .select-kit-collection
+  > li
+  > .icons
+  > .svg-icon-title
+  > svg {
+  fill: #6b8fbc;
+}
+
+.reply-details
+  > .composer-action-title
+  > .select-kit
+  > .select-kit-body
+  > .select-kit-collection
+  > li
+  > .texts
+  > .name {
+  color: #1e3f6b !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: 4px;
+}
+
+.reply-details
+  > .composer-action-title
+  > .select-kit
+  > .select-kit-body
+  > .select-kit-collection
+  > li
+  > .texts
+  > .desc {
+  color: #1e3f6b !important;
+  font-size: 12px !important;
+  line-height: 18px;
+}
+
+.d-editor-container > .d-editor-textarea-column > .d-editor-textarea-wrapper {
+  border-color: #bed2e8;
+  border-radius: 4px;
+}
+
+.composer-action-title > .action-title {
+  color: #1e3f6b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#reply-title,
+#private-message-users > summary,
+.title-and-category > .category-input > .select-kit > .select-kit-header,
+.title-and-category > .mini-tag-chooser > summary {
+  border-color: #e3ecf5 !important;
+  border-radius: 4px;
+  background-color: #f6f7fa !important;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.d-editor-textarea-wrapper > .d-editor-button-bar {
+  background-color: #f6f7fa;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#reply-title::placeholder,
+#private-message-users > summary > .select-kit-header-wrapper,
+.title-and-category
+  > .category-input
+  > .select-kit
+  > .select-kit-header
+  > .select-kit-header-wrapper
+  > .select-kit-selected-name
+  > .name,
+.title-and-category > .mini-tag-chooser > summary {
+  color: #8fb0d4 !important;
+}
+
+.d-editor-textarea-wrapper > .d-editor-button-bar > button > svg,
+.d-editor-textarea-wrapper
+  > .d-editor-button-bar
+  > details
+  > summary
+  > div
+  > svg {
+  fill: #8fb0d4;
+}
+
+.d-editor-textarea-wrapper > textarea::placeholder {
+  color: #8fb0d4;
+}
+
+.submit-panel > .save-or-cancel > button {
+  background-color: #009feb;
+  border-radius: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.submit-panel > .save-or-cancel > a {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #009feb !important;
+  text-transform: capitalize;
+}
+
+#reply-control > .grippie {
+  background: #bed2e8;
+}
+
+.fullscreen-composer #reply-control.fullscreen .reply-to {
+  border-bottom: none;
+}

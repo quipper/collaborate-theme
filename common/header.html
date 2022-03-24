@@ -1,0 +1,76 @@
+<script type="text/discourse-plugin" version="0.8">
+  api.replaceIcon('caret-right', 'chevron-right');
+  api.replaceIcon('caret-down', 'chevron-down');
+
+  api.registerConnectorClass("below-site-header", "custom-homepage", {
+
+    // Setting up our component
+    setupComponent(args, component) {
+
+     // Next we're getting the site setting 'top_menu',
+     // splitting the values into an array,
+     // and adding a leading slash
+     var topMenuRoutes =
+        component.siteSettings.top_menu.split('|')
+        .map(function(route) {return '/' + route});
+
+     // The first page listed in the 'top_menu' setting is your homepage
+     // lets assign it to a variable
+     var latestRoute = topMenuRoutes[0];
+     var unreadRoute = topMenuRoutes[2];
+     var topRoute = topMenuRoutes[3];
+     var categoriesRoute = topMenuRoutes[4];
+
+
+
+
+     // This calls our code whenever the page changes
+     api.onPageChange((url) => {
+       console.log(url)
+
+
+        // Check if we're on the homepage
+        if (url === "/" || url === latestRoute || url === unreadRoute || url === topRoute || url === categoriesRoute){
+          // If it's the homepage add the 'custom-homepage' class to HTML tag
+          // and set 'displayCustomHomepage' to true
+          document.querySelector("html").classList.add("custom-homepage");
+          component.set("displayCustomHomepage", true);
+        } else {
+          // If we're not on the homepage remove the class
+          // and set `displayCustomHomepage` to false
+          document.querySelector("html").classList.remove("custom-homepage");
+          component.set("displayCustomHomepage", false);
+        }
+      });
+    }
+
+  });
+</script>
+
+<script
+  type="text/x-handlebars"
+  data-template-name="/connectors/below-site-header/custom-homepage"
+>
+  {{#if displayCustomHomepage}}
+    <div class="custom-homepage-wrapper wrap">
+      <div class="home-banner">
+        <div class="home-banner-content">
+          <div class="home-banner-title">Discussion Forum</div>
+          <div class="home-banner-desc">
+            Welcome to Quipper Discussion Forum <br />
+            Join the conversation about fun & interesting topics.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  {{/if}}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+  rel="stylesheet"
+/>
+
+<div class="blue-strip"></div>

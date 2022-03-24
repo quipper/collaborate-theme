@@ -1,0 +1,29 @@
+.home-banner {
+  background-color: #e0dcf9;
+  color: #1e3f6b;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.home-banner-content {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-banner-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+  padding-top: 40px;
+}
+
+.home-banner-desc {
+  font-size: 16px;
+  padding-bottom: 60px;
+  margin-bottom: 44px;
+}

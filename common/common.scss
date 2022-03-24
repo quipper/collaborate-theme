@@ -1,0 +1,23 @@
+@import "styles/pages/home";
+@import "styles/pages/categories";
+@import "styles/pages/top";
+// @import "styles/pages/thread_detail";
+
+@import "styles/components/home_banner";
+@import "styles/components/new_topic";
+@import "styles/components/footer";
+
+#main {
+  background-color: #f6f7fa;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main-outlet {
+  padding-top: 0;
+  min-height: 100vh;
+}
+
+.blue-strip {
+  background-color: #00beff;
+  height: 4px;
+}

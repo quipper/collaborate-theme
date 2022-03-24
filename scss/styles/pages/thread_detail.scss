@@ -1,0 +1,76 @@
+#topic-title > .container > .title-wrapper > h1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#topic-title > .container > .title-wrapper > h1 > .topic-statuses > a > svg,
+#topic-title > .container > .title-wrapper > h1 > .edit-topic > svg {
+  fill: #1e3f6b;
+  height: 24px;
+  width: 24px;
+}
+
+#topic-title > .container > .title-wrapper > h1 > .fancy-title {
+  color: #1e3f6b;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-right: 0.2em;
+}
+
+#topic-title > .container > .title-wrapper > .topic-category > .badge-wrapper {
+  margin-right: 16px;
+}
+
+#topic-title
+  > .container
+  > .title-wrapper
+  > .topic-category
+  > .badge-wrapper
+  > .badge-category
+  > .category-name {
+  color: #1e3f6b !important;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#topic-title
+  > .container
+  > .title-wrapper
+  > .topic-category
+  > .topic-header-extra
+  > .list-tags
+  > .discourse-tags
+  > .discourse-tag {
+  background-color: #e3ecf5;
+  color: #6b8fbc;
+  border-radius: 16px;
+  padding: 4px 8px;
+  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  margin-right: 4px;
+
+  &::after {
+    content: "";
+  }
+}
+
+.container.posts {
+  background-color: white;
+  padding-left: 24px;
+}
+
+.post-stream > .topic-post > article > .row {
+  .topic-avatar {
+    border-top: none;
+    padding-top: 24px;
+  }
+
+  .topic-body {
+    border-top: none;
+    padding-top: 25px;
+  }
+}
