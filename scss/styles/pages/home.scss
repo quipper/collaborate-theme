@@ -146,8 +146,22 @@
   font-weight: 400;
 }
 
-.link-bottom-line > .discourse-tags {
-  display: none;
+.link-bottom-line > .discourse-tags > .discourse-tag {
+  background-color: #e3ecf5;
+  color: #6b8fbc !important;
+  border-radius: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 4px;
+  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+  margin-right: 4px;
+  &::after {
+    content: "" !important;
+  }
 }
 
 .footer-message > h3 {
