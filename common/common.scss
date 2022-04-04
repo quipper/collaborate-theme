@@ -1,11 +1,20 @@
 @import "styles/pages/home";
 @import "styles/pages/categories";
 @import "styles/pages/top";
-// @import "styles/pages/thread_detail";
+@import "styles/pages/thread_detail";
 
 @import "styles/components/home_banner";
 @import "styles/components/new_topic";
 @import "styles/components/footer";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
 
 #main {
   background-color: #f6f7fa;
@@ -20,4 +29,8 @@
 .blue-strip {
   background-color: #00beff;
   height: 4px;
+}
+
+.d-header {
+  height: 70px;
 }
