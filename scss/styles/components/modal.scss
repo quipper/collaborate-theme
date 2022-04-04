@@ -1,0 +1,59 @@
+.modal-inner-container {
+  border-radius: 8px;
+
+  .modal-header {
+    border-color: #e3ecf5;
+    .title > h3 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #1e3f6b;
+    }
+
+    button.modal-close > svg {
+      fill: #1e3f6b;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .modal-body {
+    form {
+      .input-group.invite-link {
+        label {
+          font-size: 14px;
+          font-weight: 600;
+          color: #1e3f6b;
+          margin-bottom: 8px;
+        }
+
+        .link-share-container {
+          .invite-link {
+            border-radius: 4px;
+            border-color: #bed2e8;
+          }
+
+          .btn-primary {
+            background-color: #e3ecf5;
+            border-radius: 4px;
+
+            svg {
+              fill: #6b8fbc;
+            }
+          }
+        }
+      }
+
+      .link-share-actions {
+        .sources > button {
+          background-color: white;
+          border-color: #bed2e8;
+          border-radius: 4px;
+
+          svg {
+            fill: #1e3f6b;
+          }
+        }
+      }
+    }
+  }
+}

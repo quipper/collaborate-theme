@@ -760,3 +760,13 @@
     color: #1e3f6b;
   }
 }
+
+#reply-control {
+  .reply-area > .reply-to > .reply-details > .composer-action-title {
+    .action-title > a {
+      color: #1e3f6b;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
