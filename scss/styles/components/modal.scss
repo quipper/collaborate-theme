@@ -3,6 +3,7 @@
 
   .modal-header {
     border-color: #e3ecf5;
+    padding: 16px 24px;
     .title > h3 {
       font-size: 16px;
       font-weight: bold;
@@ -18,12 +19,64 @@
 
   .modal-body {
     form {
-      .input-group.invite-link {
+      .input-group {
         label {
           font-size: 14px;
           font-weight: 600;
           color: #1e3f6b;
           margin-bottom: 8px;
+
+          svg {
+            fill: #8fb0d4;
+          }
+        }
+
+        div > input,
+        input {
+          border-radius: 4px;
+          background-color: #f6f7fa;
+          border-color: #e3ecf5;
+          color: #1e3f6b;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        div > input::placeholder,
+        input::placeholder {
+          color: #8fb0d4;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        div > input:focus,
+        input:focus {
+          outline: none;
+        }
+
+        .select-kit > .select-kit-header {
+          border-radius: 4px;
+          border-color: #bed2e8;
+
+          .select-kit-header-wrapper {
+            .formated-selection {
+              color: #1e3f6b;
+              font-size: 14px;
+              font-weight: 400;
+            }
+            .select-kit-selected-name > .name {
+              color: #1e3f6b;
+              font-size: 14px;
+              font-weight: 400;
+            }
+
+            button > svg {
+              fill: #1e3f6b;
+            }
+
+            svg {
+              fill: #1e3f6b;
+            }
+          }
         }
 
         .link-share-container {
@@ -44,6 +97,9 @@
       }
 
       .link-share-actions {
+        .sources > button:hover {
+          color: #1e3f6b;
+        }
         .sources > button {
           background-color: white;
           border-color: #bed2e8;
@@ -54,6 +110,272 @@
           }
         }
       }
+
+      .flag-action-type {
+        .controls > .radio {
+          input {
+            width: 24px;
+            height: 24px;
+            margin-right: 16px;
+          }
+
+          .flag-action-type-details {
+            strong {
+              font-size: 14px;
+              font-weight: 400;
+              color: #1e3f6b;
+            }
+
+            .description {
+              font-size: 14px;
+              font-weight: 400;
+              color: #1e3f6b;
+              a {
+                font-weight: bold;
+                color: #009feb;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .loading-container {
+      .bookmark-name-wrap {
+        input::placeholder {
+          color: #8fb0d4;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        input {
+          border-radius: 4px;
+          border-color: #e3ecf5;
+          background-color: #f6f7fa;
+          color: #1e3f6b;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        .bookmark-options-button > svg {
+          fill: #8fb0d4;
+        }
+      }
+
+      .bookmark-options-panel {
+        label {
+          color: #1e3f6b;
+          font-size: 14px;
+          font-weight: 400;
+        }
+
+        .bookmark-option-selector > .select-kit-header {
+          border-radius: 4px;
+          border-color: #e3ecf5;
+          background-color: #f6f7fa;
+
+          .select-kit-header-wrapper {
+            .select-kit-selected-name {
+              color: #8fb0d4;
+            }
+
+            svg {
+              fill: #6b8fbc;
+            }
+          }
+        }
+      }
+    }
+
+    .control-group {
+      .control-label {
+        font-size: 14px;
+        font-weight: 600;
+        color: #1e3f6b;
+      }
+
+      .tap-tile-grid {
+        .tap-tile {
+          svg {
+            fill: #8fb0d4;
+          }
+          .tap-tile-title,
+          .tap-tile-date {
+            font-size: 14px;
+            font-weight: 400;
+            color: #1e3f6b;
+          }
+        }
+
+        .custom-input-wrap {
+          background-color: white;
+          border-left: none;
+          border-right: none;
+          .tap-tile-date-input,
+          .tap-tile-time-input {
+            svg {
+              fill: #8fb0d4;
+            }
+
+            #custom-date > input {
+              border-radius: 4px;
+              border-color: #bed2e8;
+              color: #1e3f6b;
+            }
+
+            #custom-date > input::placeholder {
+              color: #1e3f6b;
+              text-transform: capitalize;
+            }
+
+            #custom-time {
+              border-radius: 4px;
+              border-color: #bed2e8;
+              fill: red;
+            }
+          }
+        }
+
+        .custom-relative-wrap {
+          background-color: white;
+          border-left: none;
+          border-right: none;
+          border-bottom: none;
+          .control-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1e3f6b;
+          }
+
+          .relative-time-picker {
+            .relative-time-duration {
+              border-radius: 4px;
+              border-color: #bed2e8;
+              color: #1e3f6b;
+            }
+
+            .select-kit-header {
+              border-radius: 4px;
+              border-color: #e3ecf5;
+              background-color: #f6f7fa;
+              .select-kit-header-wrapper {
+                .select-kit-selected-name > .name {
+                  font-size: 14px;
+                  font-weight: 400;
+                  color: #8fb0d4;
+                  text-transform: capitalize;
+                }
+
+                svg {
+                  fill: #6b8fbc;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+
+    .btn-primary:hover {
+      background-color: #1e3f6b;
+      opacity: 0.8;
+    }
+
+    .btn-primary {
+      border-radius: 4px;
+      background-color: #009feb;
+      padding: 11px 24px;
+
+      .d-button-label {
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+    .btn-primary:disabled {
+      background-color: #e3ecf5;
+
+      svg {
+        fill: #8fb0d4;
+      }
+
+      .d-button-label {
+        color: #8fb0d4;
+        opacity: 1;
+      }
+    }
+
+    summary {
+      border-radius: 4px;
+      padding: 9px 24px;
+
+      .select-kit-header-wrapper > .select-kit-selected-name {
+        .name {
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .select-kit-body > .select-kit-collection {
+      li {
+        padding-left: 12px;
+        padding-right: 12px;
+        .icons > .svg-icon-title {
+          width: 24px;
+          height: 24px;
+          svg {
+            fill: #6b8fbc;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+
+      .texts {
+        .name {
+          font-size: 14px;
+          font-weight: 600;
+          color: #1e3f6b;
+        }
+
+        .desc {
+          font-size: 12px;
+          font-weight: 400;
+          color: #1e3f6b;
+          margin-top: 4px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .btn-danger {
+      border-radius: 4px;
+      padding: 11px 24px;
+
+      .d-button-label {
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .d-modal-cancel {
+    color: #1e3f6b;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  #delete-bookmark {
+    background-color: white;
+    svg {
+      fill: #8fb0d4;
     }
   }
 }
