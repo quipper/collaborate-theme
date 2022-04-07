@@ -1,6 +1,7 @@
 @import "styles/pages/home";
 @import "styles/pages/categories";
 @import "styles/pages/top";
+@import "styles/pages/unread";
 @import "styles/pages/thread_detail";
 
 @import "styles/components/home_banner";
@@ -22,9 +23,29 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
+#main > :first-child {
+  overflow-x: hidden;
+}
+
 #main-outlet {
   padding-top: 0;
   min-height: 100vh;
+
+  #main-container {
+    div {
+      .row {
+        .alert {
+          background-color: #e0dcf9;
+          .text {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 21px;
+            color: #766ddd;
+          }
+        }
+      }
+    }
+  }
 }
 
 .blue-strip {
@@ -34,4 +55,14 @@ h6 {
 
 .d-header {
   height: 70px;
+}
+
+#test-footer {
+  height: 100px;
+  width: 100%;
+  left: 0;
+
+  background-color: black;
+  position: absolute;
+  bottom: 0;
 }

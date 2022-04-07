@@ -1,5 +1,5 @@
 .home-banner {
-  background-color: #e0dcf9;
+  background-color: #f6f7fa;
   color: #1e3f6b;
   width: 100vw;
   position: relative;
@@ -18,12 +18,13 @@
 .home-banner-title {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   padding-top: 40px;
 }
 
 .home-banner-desc {
-  font-size: 16px;
-  padding-bottom: 60px;
-  margin-bottom: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b8fbc;
+  padding-bottom: 40px;
 }

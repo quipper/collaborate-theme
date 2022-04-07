@@ -1,0 +1,68 @@
+.container.list-container {
+  .row {
+    .full-width {
+      #list-area {
+        .row.dismiss-container-top {
+          button {
+            display: none;
+          }
+        }
+
+        .topic-list-bottom {
+          .row.dismiss-container-bottom {
+            button {
+              background-color: white;
+              border-color: #bed2e8;
+              border-radius: 4px;
+              padding: 11px 24px;
+
+              .d-button-label {
+                color: #1e3f6b;
+                font-size: 12px;
+                font-weight: bold;
+              }
+            }
+          }
+
+          .footer-message {
+            .education {
+              background-color: white;
+              border-top: none;
+              border-bottom: none;
+              p,
+              ul > li {
+                color: #1e3f6b;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+
+                .badge {
+                  background-color: #e3ecf5;
+                  color: #6b8fbc;
+                  font-size: 10px;
+                  font-weight: 400;
+                  line-height: 15px;
+                  padding: 2px 6px;
+                }
+
+                a {
+                  color: #009feb;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+
+          h3 {
+            color: #1e3f6b;
+            font-size: 16px;
+            font-weight: bold;
+            a {
+              color: #009feb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
