@@ -554,8 +554,7 @@
               li.replies,
               li.views,
               li.users,
-              li.likes,
-              li.links {
+              li.likes {
                 text-align: left;
                 display: flex;
                 flex-direction: column-reverse;
@@ -572,6 +571,10 @@
                   font-size: 14px;
                   color: #1e3f6b;
                 }
+              }
+
+              li.links {
+                display: none;
               }
 
               .avatars > div > .poster > img {
