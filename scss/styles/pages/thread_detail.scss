@@ -9,16 +9,6 @@
       .title-wrapper {
         .topic-statuses {
           display: none;
-
-          // width: 24px;
-          // height: 24px;
-          // margin-right: 4px;
-          // margin-bottom: 4px;
-          svg {
-            // width: 24px;
-            // height: 24px;
-            // fill: #1e3f6b;
-          }
         }
         .header-title {
           display: flex;
@@ -213,7 +203,6 @@
   }
 
   .row > .topic-area > .loading-container > .topic-timer-info {
-    // border-top: none;
     padding-left: 45px + 11px;
     border-color: #e3ecf5;
 
@@ -646,9 +635,6 @@
 
 .topic-above-footer-buttons-outlet {
   display: none;
-  // background-color: white;
-  // margin-top: 0px !important;
-  // margin-bottom: 0px !important;
 }
 
 #topic-footer-buttons {

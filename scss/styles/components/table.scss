@@ -1,0 +1,123 @@
+.topic-list {
+  border-collapse: separate;
+
+  .topic-list-data {
+    color: #6b8fbc;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 24px !important;
+
+    .topic-excerpt {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .link-top-line {
+      .topic-statuses {
+        * > svg {
+          fill: #6b8fbc;
+          height: 16px;
+          width: 16px;
+        }
+      }
+    }
+  }
+
+  .topic-list-header {
+    tr {
+      th.default.topic-list-data {
+        .bulk-select-topics {
+          button:hover {
+            background-color: rgba(12, 40, 70, 0.05);
+          }
+          button {
+            background-color: transparent;
+            border-color: #bed2e8;
+            border-radius: 4px;
+            color: #6b8fbc;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 4px 16px;
+          }
+        }
+      }
+
+      th:first-child {
+        border-top-left-radius: 4px;
+      }
+
+      th:last-child {
+        border-top-right-radius: 4px;
+      }
+
+      th {
+        background-color: #e3ecf5;
+      }
+    }
+  }
+
+  .topic-list-body {
+    border-top: none;
+
+    tr:last-child td:first-child {
+      border-bottom-left-radius: 4px;
+    }
+
+    tr:last-child td:last-child {
+      border-bottom-right-radius: 4px;
+    }
+
+    tr {
+      .views {
+        .number {
+          color: #6b8fbc;
+          font-weight: 400;
+          font-weight: 14px;
+        }
+      }
+
+      .topic-list-data {
+        .relative-date {
+          color: #6b8fbc;
+          font-weight: 400;
+          font-weight: 14px;
+        }
+
+        .badge-posts {
+          .number {
+            color: #6b8fbc;
+            font-weight: bold;
+            font-weight: 14px;
+          }
+        }
+      }
+    }
+
+    .topic-list-item {
+      background-color: white;
+      .bulk-select.topic-list-data {
+        label {
+          height: 24px;
+          padding-left: 0px;
+          input {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+
+    .topic-list-item.visited .topic-list-data a.title:not(.badge-notification) {
+      color: #1e3f6b !important;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .topic-list .main-link a.title {
+      color: #009feb !important;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 24px;
+    }
+  }
+}

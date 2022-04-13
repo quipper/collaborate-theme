@@ -3,6 +3,7 @@
   "about_url": "",
   "license_url": "",
   "assets": {
-    "logo-footer": "assets/logo-footer.svg"
+    "logo-footer": "assets/logo-footer.svg",
+    "icons-sprite": "assets/icons/sprites.svg"
   }
 }

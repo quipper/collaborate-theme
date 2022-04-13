@@ -1,52 +1,58 @@
-.select-kit-header {
-  .d-icon-caret-down {
-    font-size: 16px !important;
-  }
+.contents {
+  .top-lists {
+    .select-kit {
+      .select-kit-header {
+        .d-icon-caret-down {
+          font-size: 16px !important;
+        }
 
-  .selected-name > {
-    .date-section {
-      color: #1e3f6b !important;
-      font-size: 20px;
-      font-weight: bold;
-      line-height: 30px;
-    }
+        .selected-name > {
+          .date-section {
+            color: #1e3f6b !important;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 30px;
+          }
 
-    .top-date-string {
-      color: #1e3f6b !important;
-      font-size: 16px !important;
-      font-weight: 400 !important;
-      line-height: 24px !important;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      text-transform: capitalize !important;
-    }
-  }
-}
-.select-kit-body {
-  border-radius: 10px !important;
-  border-color: #8fb0d4 !important;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3) !important;
-
-  .select-kit-collection {
-    padding: 0 !important;
-    .select-kit-row > .period-title > {
-      .date-section {
-        padding-left: 8px;
-        color: #1e3f6b;
-        font-size: 16px;
-        font-weight: bold;
+          .top-date-string {
+            color: #1e3f6b !important;
+            font-size: 16px !important;
+            font-weight: 400 !important;
+            line-height: 24px !important;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            text-transform: capitalize !important;
+          }
+        }
       }
-      .top-date-string {
-        padding-right: 8px;
-        color: #1e3f6b;
-        font-size: 14px;
-        font-weight: 400;
-        text-transform: capitalize;
-      }
-    }
+      .select-kit-body {
+        border-radius: 10px !important;
+        border-color: #8fb0d4 !important;
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3) !important;
 
-    .is-selected {
-      background-color: #e3ecf5 !important;
+        .select-kit-collection {
+          padding: 0 !important;
+          .select-kit-row > .period-title > {
+            .date-section {
+              padding-left: 8px;
+              color: #1e3f6b;
+              font-size: 16px;
+              font-weight: bold;
+            }
+            .top-date-string {
+              padding-right: 8px;
+              color: #1e3f6b;
+              font-size: 14px;
+              font-weight: 400;
+              text-transform: capitalize;
+            }
+          }
+
+          .is-selected {
+            background-color: #e3ecf5 !important;
+          }
+        }
+      }
     }
   }
 }

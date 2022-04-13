@@ -3,10 +3,13 @@
 @import "styles/pages/top";
 @import "styles/pages/unread";
 @import "styles/pages/thread_detail";
+@import "styles/pages/summary";
 
 @import "styles/components/home_banner";
 @import "styles/components/new_topic";
 @import "styles/components/modal";
+@import "styles/components/table.scss";
+@import "styles/components/header";
 @import "styles/components/footer";
 
 h1,
@@ -83,4 +86,38 @@ h6 {
   background-color: black;
   position: absolute;
   bottom: 0;
+}
+
+.badge-wrapper {
+  .badge-category-bg {
+    border-radius: 50%;
+  }
+  .badge-category {
+    .category-name {
+      font-size: 14px;
+      color: #1e3f6b;
+      font-weight: 400;
+    }
+  }
+}
+
+.discourse-tags {
+  .discourse-tag {
+    background-color: #e3ecf5;
+    color: #6b8fbc !important;
+    border-radius: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 4px;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-right: 4px;
+    margin-top: 4px;
+    &::after {
+      content: "" !important;
+    }
+  }
 }
