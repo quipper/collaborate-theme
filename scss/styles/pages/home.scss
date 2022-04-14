@@ -2,6 +2,7 @@
   .list-controls {
     .container {
       .navigation-container {
+        margin-top: 40px;
         margin-bottom: 22px;
         .category-breadcrumb > li > .select-kit {
           .select-kit-header {
@@ -13,8 +14,8 @@
             font-weight: 400 !important;
 
             .select-kit-header-wrapper {
-              .caret-icon {
-                fill: #1e3f6b;
+              svg {
+                fill: #6b8fbc;
               }
 
               .select-kit-selected-name {
@@ -161,6 +162,20 @@
             .footer-message {
               h3 {
                 color: #6b8fbc;
+                .top-title-buttons {
+                  button {
+                    background-color: #009feb;
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 18px;
+                    padding: 11px 24px;
+                  }
+                  button:hover {
+                    background-color: #00beff;
+                  }
+                }
               }
             }
           }

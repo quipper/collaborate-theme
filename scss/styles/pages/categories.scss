@@ -24,6 +24,7 @@
         }
       }
     }
+
     tbody {
       background-color: white;
       border-top: none;
@@ -48,7 +49,8 @@
 
       tr {
         td {
-          border-width: 0px;
+          border-top-width: 0px;
+          border-right-width: 0px;
           border-bottom-width: 1px;
           border-bottom-color: #e3ecf5 !important;
           border-style: solid;
@@ -56,6 +58,9 @@
           h3 {
             .category-title-link {
               .category-text-title {
+                svg {
+                  fill: #6b8fbc;
+                }
                 .category-name {
                   color: #1e3f6b;
                   font-size: 16px;
@@ -68,6 +73,10 @@
             font-size: 16px;
             color: #1e3f6b !important;
           }
+        }
+
+        .topics {
+          border-left-width: 0px;
         }
       }
 

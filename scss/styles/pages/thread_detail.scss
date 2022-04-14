@@ -303,15 +303,21 @@
 
         .regular.contents {
           .cooked {
+            color: #1e3f6b;
+
+            a,
+            .mention {
+              color: #009feb !important;
+            }
+
             .quote {
               .title {
                 border-top-left-radius: 4px;
                 border-top-right-radius: 4px;
                 border-color: #8fb0d4;
                 background-color: #e3ecf5;
-                color: #1e3f6b;
-                font-size: 14px;
                 font-weight: bold;
+                font-size: 14px;
 
                 .quote-controls > a > svg {
                   fill: #8fb0d4;
@@ -489,6 +495,9 @@
               background-color: white !important;
               border-left: 0;
               border-radius: 10px;
+              svg {
+                fill: #009feb;
+              }
             }
 
             .clearfix {
@@ -570,6 +579,26 @@
                 height: 42px;
                 width: 42px;
                 margin-right: 8px;
+              }
+            }
+          }
+
+          .topic-map-expanded {
+            .avatars,
+            .links {
+              border-color: #e3ecf5;
+              h3 {
+                color: #1e3f6b;
+              }
+
+              .topic-links {
+                tr {
+                  td {
+                    .topic-link {
+                      color: #009feb;
+                    }
+                  }
+                }
               }
             }
           }
@@ -661,6 +690,10 @@
     }
   }
 
+  button.create {
+    border-color: white;
+  }
+
   .btn-primary.create.btn.btn-icon-text.ember-view {
     background-color: #009feb;
 
@@ -742,6 +775,7 @@
 }
 
 .suggested-topics {
+  margin-top: 35px;
   #suggested-topics-title {
     color: #1e3f6b;
   }

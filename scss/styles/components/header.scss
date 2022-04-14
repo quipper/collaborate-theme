@@ -1,6 +1,14 @@
 .d-header.clearfix {
   .wrap {
     .contents.clearfix {
+      .title {
+        a {
+          img {
+            height: 32px;
+            width: 127px;
+          }
+        }
+      }
       .panel.clearfix {
         .hamburger-panel {
           .menu-panel {
@@ -48,11 +56,6 @@
                 .menu-links-header {
                   .menu-links-row {
                     div {
-                      button.active {
-                        border: none;
-                        border-bottom-style: solid;
-                        border-bottom-color: #009feb;
-                      }
                       button {
                         svg {
                           color: #8fb0d4;
@@ -61,6 +64,11 @@
                         }
                       }
 
+                      button:focus {
+                        background-color: white;
+                      }
+
+                      button:hover,
                       .active {
                         svg {
                           color: #009feb;

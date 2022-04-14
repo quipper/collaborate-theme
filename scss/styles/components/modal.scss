@@ -417,12 +417,19 @@
       }
       .btn-danger {
         background-color: #009feb;
+        svg {
+          fill: white;
+        }
+      }
+
+      .save-draft:hover,
+      .keep-editing:hover {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
       }
 
       .save-draft,
       .keep-editing {
         background-color: white;
-        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
         border-color: #bed2e8;
         border-radius: 4px;
         padding: 11px 24px;

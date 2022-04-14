@@ -38,12 +38,28 @@ h6 {
     div {
       .row {
         .alert {
+          display: flex;
+          align-items: center;
+          min-height: 56px;
           background-color: #e0dcf9;
-          .text {
+          padding-left: 16px;
+          padding-right: 16px;
+          border-radius: 4px;
+          margin-bottom: 0px;
+          margin-top: 12px;
+          span {
             font-size: 14px;
             font-weight: 600;
             line-height: 21px;
             color: #766ddd;
+          }
+          button {
+            top: 8px;
+            right: 8px;
+
+            svg {
+              fill: #6b8fbc;
+            }
           }
         }
       }
@@ -93,12 +109,22 @@ h6 {
     border-radius: 50%;
   }
   .badge-category {
+    svg {
+      fill: #6b8fbc;
+      width: 12px !important;
+      height: 12px !important;
+    }
     .category-name {
       font-size: 14px;
       color: #1e3f6b;
       font-weight: 400;
     }
   }
+}
+
+.badge.badge-notification.clicks {
+  background-color: #009feb;
+  color: white;
 }
 
 .discourse-tags {
@@ -120,4 +146,16 @@ h6 {
       content: "" !important;
     }
   }
+}
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active {
+  border-color: transparent !important;
+  outline: 1px solid #8fb0d4 !important;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn-icon-text:hover {
+  background-color: #00beff !important;
 }
