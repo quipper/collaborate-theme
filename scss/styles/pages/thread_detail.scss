@@ -233,6 +233,27 @@
 }
 
 .post-stream {
+  .time-gap {
+    border-top-color: #e3ecf5 !important;
+
+    .small-action-desc {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 21px;
+      color: #1e3f6b;
+    }
+  }
+  .time-gap + .topic-post {
+    article {
+      .row {
+        .topic-avatar,
+        .topic-body {
+          border-top: 1px solid #e3ecf5;
+        }
+      }
+    }
+  }
+
   .topic-post:first-of-type {
     article {
       .topic-avatar {
@@ -584,6 +605,7 @@
           }
 
           .topic-map-expanded {
+            border: none;
             .avatars,
             .links {
               border-color: #e3ecf5;
