@@ -37,6 +37,7 @@ After publishing to production, you need to set Back to Learn link on theme comp
 ## TODO
 - Work on theme for settings page (https://collaborate.quipper.net/u/username)
 - Work on theme for messages page
+- Language Changer is still not working
 
 ## Blocker So Far
 - Cant create dashboard error popup (cant simulate error)
