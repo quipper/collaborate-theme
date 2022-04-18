@@ -24,6 +24,15 @@
 - click check for update
 - click update
 
+## Notes
+After publishing to production, you need to set Back to Learn link on theme component (the current one uses develop link).
+- go to collaborate
+- go to settings
+- go to customise
+- click on "Component"
+- click "Icon Header Link"
+- change Header links url on Theme Settings
+
 
 ## TODO
 - Work on theme for settings page (https://collaborate.quipper.net/u/username)
