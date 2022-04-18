@@ -524,6 +524,12 @@
             .clearfix {
               padding-left: 14px;
 
+              li {
+                padding-left: 7px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+              }
+
               li.created-at {
                 width: 87px;
                 padding-right: 0px;
@@ -597,8 +603,8 @@
               }
 
               .avatars > div > .poster > img {
-                height: 36px;
-                width: 36px;
+                height: 42px;
+                width: 42px;
                 margin-right: 8px;
               }
             }
