@@ -1,0 +1,33 @@
+.footer {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  background-color: #0c2846;
+  color: #8fb0d4;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  .footer-section {
+    display: flex;
+    align-items: center;
+    padding-left: 61px;
+    padding-right: 61px;
+
+    .footer-logo {
+      height: 24px;
+      width: 92px;
+      background-image: url($logo-footer);
+      background-repeat: no-repeat;
+      margin-right: 16px;
+    }
+
+    .footer-text {
+      padding-top: 3px;
+      font-size: 12px;
+      margin-right: 16px;
+    }
+  }
+}
