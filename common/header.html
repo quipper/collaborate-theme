@@ -24,21 +24,17 @@
      var topRoute = topMenuRoutes[3];
      var categoriesRoute = topMenuRoutes[4];
 
-     // remove all global notifications banner
-     const glNotif = document.getElementsByClassName('global-notice');
-
-     glNotif[0].remove();
-
-     // remove create-topics-notice banner
-     const createTopicsBanner = document.getElementsByClassName('create-topics-notice');
-     createTopicsBanner[0].remove();
-
-
-
-
-
      // This calls our code whenever the page changes
      api.onPageChange((url) => {
+      // remove all global notifications banner
+      const glNotif = document.getElementsByClassName('global-notice');
+ 
+      glNotif[0].remove();
+ 
+      // remove create-topics-notice banner
+      const createTopicsBanner = document.getElementsByClassName('create-topics-notice');
+      createTopicsBanner[0].remove();
+ 
        console.log(url)
 
 
