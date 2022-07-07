@@ -24,27 +24,12 @@
      var topRoute = topMenuRoutes[3];
      var categoriesRoute = topMenuRoutes[4];
 
+
+
+
      // This calls our code whenever the page changes
      api.onPageChange((url) => {
-      // remove all global notifications banner
-      const glNotif = document.getElementsByClassName('global-notice');
- 
-      glNotif[0]?.remove();
- 
-      // remove create-topics-notice banner
-      const createTopicsBanner = document.getElementsByClassName('create-topics-notice');
-      createTopicsBanner[0]?.remove();
-
-      // bootstrap mode
-      const glNotifBt = document.getElementsByClassName('global-notice-alert-bootstrap-mode');
- 
-      glNotifBt[0]?.remove();
-      
-      // notie for less than 50 users
-      const glNotifById = document.getElementById('global-notice-alert-bootstrap-mode');
-      glNotifById?.remove();
-
-      console.log(url)
+       console.log(url)
 
 
         // Check if we're on the homepage
