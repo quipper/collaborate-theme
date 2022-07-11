@@ -1,0 +1,30 @@
+<script>
+    var TopicListComponent = require("discourse/components/topic-list").default;
+    TopicListComponent.reopen({
+        showLikes: true,
+    });
+
+    $(document).ready(function () {
+        const glNotif = document.getElementsByClassName('global-notice');
+
+        glNotif[0]?.remove();
+
+        // remove create-topics-notice banner
+        const createTopicsBanner = document.getElementsByClassName('create-topics-notice');
+        createTopicsBanner[0]?.remove();
+
+        // bootstrap mode
+        const glNotifBt = document.getElementsByClassName('global-notice-alert-bootstrap-mode');
+
+        glNotifBt[0]?.remove();
+
+        // notie for less than 50 users
+        const glNotifById = document.getElementById('global-notice-alert-bootstrap-mode');
+        glNotifById?.remove();
+
+        // consent banner
+        const consentBanner = document.getElementsByClassName('consent_banner');
+
+        consentBanner[0]?.remove();
+    });
+</script>

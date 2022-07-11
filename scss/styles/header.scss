@@ -1,0 +1,311 @@
+.d-header.clearfix {
+    .wrap {
+        .contents.clearfix {
+            .title {
+                a {
+                    img {
+                        height: 32px;
+                        width: 127px;
+                    }
+                }
+            }
+
+            .panel.clearfix {
+                .hamburger-panel {
+                    .menu-panel {
+                        border-radius: 4px;
+
+                        .panel-body {
+                            .panel-body-contents {
+                                div {
+                                    ul {
+                                        li {
+                                            a {
+                                                color: #1e3f6b;
+
+                                                svg {
+                                                    fill: #6b8fbc;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .category-links {
+                                    li {
+                                        span {
+                                            .badge-wrapper {
+                                                .badge-category {
+                                                    svg {
+                                                        fill: #6b8fbc;
+                                                    }
+
+                                                    .category-name {
+                                                        color: #1e3f6b;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .user-menu {
+                    .menu-panel.drop-down {
+                        border-radius: 4px;
+
+                        .panel-body {
+                            .panel-body-contents {
+                                .menu-links-header {
+                                    .menu-links-row {
+                                        div {
+                                            button {
+                                                svg {
+                                                    color: #8fb0d4;
+                                                    width: 24px;
+                                                    height: 24px;
+                                                }
+                                            }
+
+                                            button:focus {
+                                                background-color: white;
+                                            }
+
+                                            button:hover,
+                                            .active {
+                                                svg {
+                                                    color: #009feb;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                #quick-access-notifications {
+                                    ul {
+
+                                        .private-message,
+                                        .group-message-summary,
+                                        .granted-badge {
+                                            background-color: #ebfaff;
+                                        }
+
+                                        li {
+                                            a {
+                                                padding-top: 12px;
+                                                padding-bottom: 12px;
+                                                font-size: 14px;
+
+                                                svg {
+                                                    fill: #6b8fbc;
+                                                    color: #6b8fbc;
+                                                }
+
+                                                div {
+                                                    color: #1e3f6b;
+
+                                                    span:first-child {
+                                                        color: #1e3f6b;
+                                                        font-weight: 600;
+                                                    }
+
+                                                    span {
+                                                        color: #1e3f6b;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                #quick-access-bookmarks {
+                                    ul {
+                                        div {
+                                            .empty-state {
+                                                .empty-state-title {
+                                                    font-size: 14px;
+                                                    font-weight: bold;
+                                                    line-height: 21px;
+                                                    text-align: center;
+                                                    color: #1e3f6b;
+                                                }
+
+                                                .empty-state-body {
+                                                    p {
+                                                        font-size: 14px;
+                                                        font-weight: 400;
+                                                        line-height: 21px;
+                                                        color: #1e3f6b;
+                                                        margin-top: 8px;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        li {
+                                            a {
+                                                padding-top: 12px;
+                                                padding-bottom: 12px;
+                                                font-size: 14px;
+
+                                                svg {
+                                                    fill: #6b8fbc;
+                                                    color: #6b8fbc;
+                                                }
+
+                                                div {
+                                                    span:first-child {
+                                                        color: #1e3f6b;
+                                                        font-weight: 600;
+                                                    }
+
+                                                    span {
+                                                        color: #1e3f6b;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        li:hover {
+                                            background-color: #ebfaff;
+                                        }
+                                    }
+                                }
+
+                                #quick-access-messages {
+                                    ul {
+                                        li {
+                                            a {
+                                                padding-top: 12px;
+                                                padding-bottom: 12px;
+                                                font-size: 14px;
+
+                                                svg {
+                                                    fill: #6b8fbc;
+                                                    color: #6b8fbc;
+                                                }
+
+                                                div {
+                                                    span:first-child {
+                                                        color: #1e3f6b;
+                                                        font-weight: 600;
+                                                    }
+
+                                                    span {
+                                                        color: #1e3f6b;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        li:hover {
+                                            background-color: #ebfaff;
+                                        }
+                                    }
+                                }
+
+                                #quick-access-profile {
+                                    ul {
+                                        li {
+
+                                            a,
+                                            button {
+                                                display: flex;
+                                                align-items: center;
+                                                padding-top: 12px;
+                                                padding-bottom: 12px;
+                                                font-size: 14px;
+
+                                                svg {
+                                                    padding-top: 0px;
+                                                    width: 24px;
+                                                    height: 24px;
+                                                    fill: #6b8fbc;
+                                                    color: #6b8fbc;
+                                                }
+
+                                                div,
+                                                span {
+                                                    color: #1e3f6b;
+                                                }
+                                            }
+                                        }
+
+                                        li:hover {
+                                            background-color: #ebfaff;
+                                        }
+                                    }
+                                }
+
+                                #quick-access-notifications,
+                                #quick-access-bookmarks,
+                                #quick-access-messages,
+                                #quick-access-profile {
+                                    .panel-body-bottom {
+                                        justify-content: space-between;
+
+                                        .widget-link {
+                                            background-color: white;
+                                            flex: none;
+
+                                            svg {
+                                                display: none;
+                                            }
+                                        }
+
+                                        .widget-link::after {
+                                            color: #009feb;
+                                            font-size: 12px;
+                                            font-weight: bold;
+                                        }
+
+                                        .widget-button {
+                                            background-color: white;
+
+                                            svg {
+                                                color: #6b8fbc;
+                                            }
+
+                                            .d-button-label {
+                                                color: #6b8fbc;
+                                                font-size: 12px;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                #quick-access-notifications {
+                                    .panel-body-bottom {
+                                        .widget-link::after {
+                                            content: "View All Notifications";
+                                        }
+                                    }
+                                }
+
+                                #quick-access-bookmarks {
+                                    .panel-body-bottom {
+                                        .widget-link::after {
+                                            content: "View All Bookmarks";
+                                        }
+                                    }
+                                }
+
+                                #quick-access-messages {
+                                    .panel-body-bottom {
+                                        .widget-link::after {
+                                            content: "View All Messages";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

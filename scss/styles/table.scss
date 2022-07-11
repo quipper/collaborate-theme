@@ -1,0 +1,183 @@
+.topic-list {
+    // border-collapse: separate;
+
+    .topic-list-data:last-of-type {
+        padding-right: 24px !important;
+    }
+
+    .topic-list-data {
+        color: #6b8fbc;
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 24px !important;
+
+        .topic-excerpt {
+            color: #1e3f6b;
+            font-size: 14px;
+            font-weight: 400;
+
+            .topic-excerpt-more {
+                color: #009feb;
+                font-weight: bold;
+            }
+        }
+
+        .link-top-line {
+            a {
+                font-weight: 600;
+                font-size: 16px;
+                color: #009feb !important;
+            }
+
+            .topic-post-badges {
+                .unread-posts {
+                    color: white !important;
+                    background-color: #00beff;
+                    width: 16px;
+                    height: 16px;
+                    padding: 0;
+                    font-weight: bold;
+                    font-size: 10px;
+                    line-height: 15px;
+                    border-radius: 16px !important;
+                }
+
+                a::before {
+                    background-color: #00beff;
+                }
+            }
+
+            .topic-statuses {
+                *>svg {
+                    fill: #6b8fbc;
+                    height: 16px;
+                    width: 16px;
+                }
+            }
+        }
+    }
+
+    .topic-list-header {
+        tr {
+            th.default.topic-list-data {
+                .bulk-select-topics {
+                    button:hover {
+                        background-color: rgba(12, 40, 70, 0.05);
+                    }
+
+                    button {
+                        background-color: transparent;
+                        border-color: #bed2e8;
+                        border-radius: 4px;
+                        color: #6b8fbc;
+                        font-size: 14px;
+                        font-weight: 600;
+                        padding: 4px 16px;
+                    }
+                }
+            }
+
+            .bulk-select.topic-list-data {
+                button:hover {
+                    svg {
+                        fill: #6b8fbc;
+                    }
+                }
+            }
+
+            th:first-child {
+                border-top-left-radius: 4px;
+            }
+
+            th:last-child {
+                border-top-right-radius: 4px;
+            }
+
+            th:hover {
+                background-color: #bed2e8;
+            }
+
+            th.posters:hover {
+                background-color: #e3ecf5;
+            }
+
+            th {
+                background-color: #e3ecf5;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .topic-list-body {
+        border-top: none;
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 4px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 4px;
+        }
+
+        tr:last-child {
+            border-bottom: none;
+        }
+
+        tr {
+            .views {
+                .number {
+                    color: #6b8fbc;
+                    font-weight: 400;
+                    font-weight: 14px;
+                }
+            }
+
+            .topic-list-data {
+                .relative-date {
+                    color: #6b8fbc;
+                    font-weight: 400;
+                    font-weight: 14px;
+                }
+
+                .badge-posts {
+                    .number {
+                        color: #6b8fbc;
+                        font-weight: bold;
+                        font-weight: 14px;
+                    }
+                }
+            }
+        }
+
+        .topic-list-item {
+            background-color: white;
+
+            .bulk-select.topic-list-data {
+                label {
+                    height: 24px;
+                    padding-left: 0px;
+
+                    input {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+
+        .topic-list-item-separator {
+            .topic-list-data {
+                text-transform: capitalize;
+                font-size: 14px;
+                font-weight: 400;
+                color: #fc7d20;
+                border-color: #fc7d20;
+            }
+        }
+
+        .topic-list-item.visited .topic-list-data a.title:not(.badge-notification) {
+            color: #1e3f6b !important;
+        }
+    }
+}

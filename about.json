@@ -1,0 +1,10 @@
+{
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+    "logo-footer": "assets/logo-footer.svg",
+    "icons-sprite": "assets/icons/sprites.svg"
+  },
+  "name": "coll-theme",
+  "color_schemes": {}
+}

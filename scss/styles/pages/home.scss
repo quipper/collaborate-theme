@@ -1,0 +1,186 @@
+#main-outlet {
+  .list-controls {
+    .container {
+      .navigation-container {
+        margin-top: 40px;
+        margin-bottom: 22px;
+        .category-breadcrumb > li > .select-kit {
+          .select-kit-header {
+            border-color: #bed2e8;
+            border-radius: 4px;
+            padding-left: 16px !important;
+            padding-right: 12px !important;
+            font-size: 14px !important;
+            font-weight: 400 !important;
+
+            .select-kit-header-wrapper {
+              svg {
+                fill: #6b8fbc;
+              }
+
+              .select-kit-selected-name {
+                width: 118px;
+
+                .name {
+                  text-transform: capitalize;
+                  color: #1e3f6b;
+                }
+              }
+            }
+          }
+
+          .select-kit-body {
+            border-radius: 4px !important;
+
+            .select-kit-filter {
+              border-top-left-radius: 4px;
+              border-top-right-radius: 4px;
+
+              input::placeholder {
+                color: #8fb0d4;
+              }
+
+              input {
+                background-color: #f6f7fa;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                padding-left: 8px;
+                color: #1e3f6b;
+                font-weight: 400;
+                font-size: 14px;
+              }
+
+              svg {
+                background-color: #f6f7fa;
+                height: 30px;
+                margin-left: 0px;
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                padding-right: 8px;
+                fill: #8fb0d4;
+              }
+            }
+
+            .select-kit-collection {
+              li:hover {
+                background-color: #e3ecf5;
+              }
+
+              li {
+                padding-left: 16px;
+                padding-right: 16px;
+              }
+
+              .category-status {
+                .badge-wrapper {
+                  .badge-category > .category-name {
+                    color: #1e3f6b;
+                    font-size: 14px;
+                    font-weight: 400;
+                  }
+
+                  .topic-count {
+                    color: #6b8fbc;
+                    font-size: 10px;
+                    font-weight: 400;
+                    line-height: 15px;
+                  }
+                }
+              }
+
+              .discourse-tag {
+                color: #1e3f6b;
+                font-size: 14px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+
+      #navigation-bar {
+        margin-left: 30px;
+
+        li {
+          a {
+            color: #6b8fbc;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 6px 16px;
+            line-height: 21px;
+          }
+
+          a.active,
+          a.active:hover {
+            background-color: transparent;
+            color: #f6f7fa;
+          }
+
+          a:hover {
+            background-color: transparent;
+            color: #6b8fbc;
+          }
+        }
+
+        *:not(:last-child) {
+          background-color: #009feb;
+          border-radius: 48px;
+        }
+
+        *:not(li.active):not(:last-child) {
+          border-width: 1px;
+          border-style: solid;
+          border-color: #6b8fbc;
+          border-radius: 48px;
+          font-weight: bold;
+          background-color: transparent;
+        }
+      }
+
+      .navigation-controls {
+        #create-topic {
+          background-color: #009feb;
+          color: #f6f7fa;
+          border-radius: 4px;
+          padding: 11px 24px;
+          font-size: 12px;
+          font-weight: bold;
+
+          :first-child {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .container.list-container {
+    .row {
+      .full-width {
+        #list-area {
+          .topic-list-bottom {
+            .footer-message {
+              h3 {
+                color: #6b8fbc;
+                .top-title-buttons {
+                  button {
+                    background-color: #009feb;
+                    border-radius: 4px;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 18px;
+                    padding: 11px 24px;
+                  }
+                  button:hover {
+                    background-color: #00beff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
